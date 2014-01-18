@@ -30,12 +30,8 @@ Pretty standard for a Go project:
 2. Create a directory for Go development.
 ** ```$ mkdir -p ~/dev/golang```
 3. Set up the GOPATH environment variable to point to the above
-   directory.
-** ```$ export GOPATH="~/dev/golang"```
-4. Add `$GOPATH/bin` to your $PATH.
-** ```$ export PATH="$GOPATH/bin:$PATH"```
-5. Run `go get`
-** ```$ go get github.com/nelsam/goweb_angular_demo```
-6. Run the application
-** ```$ PORT=5000 goweb_angular_demo```
+   directory: `$ export GOPATH="~/dev/golang"`
+4. Add `$GOPATH/bin` to your $PATH: `$ export PATH="$GOPATH/bin:$PATH"`
+5. Run `go get`: `$ go get github.com/nelsam/goweb_angular_demo`
+6. Run the application: `$ PORT=5000 goweb_angular_demo`
 7. Visit `localhost:5000` in your web browser.
