@@ -26,7 +26,7 @@ The main files that make up the demo are:
 
 Pretty standard for a Go project:
 
-1. Install the (Go tool)[http://golang.org/doc/install#install]
+1. Install the [Go tool](http://golang.org/doc/install#install)
 2. Create a directory for Go development.
 ** ```$ mkdir -p ~/dev/golang```
 3. Set up the GOPATH environment variable to point to the above
