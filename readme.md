@@ -27,10 +27,9 @@ The main files that make up the demo are:
 Pretty standard for a Go project:
 
 1. Install the [Go tool](http://golang.org/doc/install#install)
-2. Create a directory for Go development.
-** ```$ mkdir -p ~/dev/golang```
+2. Create a directory for Go development, e.g. `$ mkdir -p ~/dev/golang`
 3. Set up the GOPATH environment variable to point to the above
-   directory: `$ export GOPATH="~/dev/golang"`
+   directory, e.g. `$ export GOPATH="~/dev/golang"`
 4. Add `$GOPATH/bin` to your $PATH: `$ export PATH="$GOPATH/bin:$PATH"`
 5. Run `go get`: `$ go get github.com/nelsam/goweb_angular_demo`
 6. Run the application: `$ PORT=5000 goweb_angular_demo`
